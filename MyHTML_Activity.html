@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My HTML Activity</title>
+
+    </head>
+    <body>
+        <header id="main-header" class="Headers">
+            <h1>Welcome to My HTML Activity</h1>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#information">My Information</a></li>
+                    <li><a href="#media">My Media</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content" class="Contents">
+            <section id="about" class="content-section">
+                <hr>
+                <h2>About</h2>
+                <p>Hello! My name is Samaa. This is my solution for the "Hands-on 3" Activity regarded as assignement 3.</p>
+            </section>
+            <section id="information" class="content-section">
+                <hr>
+                <h2>My Information</h2>
+                <ul>
+                    <li>Name: Samaa Mohamed Saleh Hussein Abdelhamid</li>
+                    <li>ID: 223101629</li>
+                    <li>Major: Computer Engineering</li>
+                    <li>Gu-mail: sms800204@gu.edu.eg</li>
+                    <li>Github User: smsosa1000</li>
+                </ul>
+            </section>
+            <section id="media" class="content-section">
+                <hr>
+                <h2>My Media</h2>
+                <div class="image">
+                    
+                    <h3>My Photo</h3>
+                    <figure>
+                        <a href="https://www.linkedin.com/in/samaamohamed00/" target=_blank class="external-link">
+                            <img src="Multimedia\Activity3_Image_Web.jpg"
+                                alt="This is me, Samaa"
+                                title="Samaa Mohamed"
+                                width="300"
+                                height="400"
+                                class="Profile-Photo">
+                        </a>
+                        <figcaption>This is me, Samaa. Connect with me on Linkedin by pressing the photo!</figcaption>
+                        
+                    
+                    </figure>
+                </div>
+                <div class="video">
+                    
+                    <h3>My Video</h3>
+                    <video width="400" controls class="Personal-Video">
+                        <source src="Multimedia\Activity3_Video_Web.mp4" type="video/mp4">
+                        <source src="Multimedia\Activity3_Video_Web.webm" type="video/webm">
+
+                        <track src="Subtitles.vtt" kind="subtitles" srclang="en" label="English Subtitles">
+
+                        Your browser does not support the video tag.
+                    </video>
+                    <p><small>Click the CC button in the video controls to turn on subtitles</small></p>
+                </div>
+                <div class="audio">
+                    
+                    <h3>My Audio</h3>
+                    <audio controls class="Personal-Audio">
+                        <source src="Multimedia\Activity3_Audio_Web.mp3" type="audio/mpeg">
+                        <source src="Multimedia\Activity3_Audio_Web.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                </section>
+        </main>
+    </body>
+</html>
